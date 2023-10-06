@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.quiz {
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quiz > .ant-card {
+  width: 500px;
+  height: 500px;
+  border-radius: 7px;
+  background-color: #f7f7f7;
+}
+
+.ant-radio-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+.ant-radio-wrapper,
+.ant-radio-button-wrapper {
+  width: 100%;
+  border-radius: 7px;
+  height: 35px;
+  border: 1px solid #c7c6c6;
+  /* padding: px; */
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper:not(
+    :first-child
+  )::before {
+  display: none;
+}
+.footer {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer_btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.timer {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progress {
+  width: 200px;
+  height: 3px;
+  background-color: gray;
+}
+/* .ant-radio-inner{
+  display: none;
+} */
+/* .select {
+  width: 50px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid #f7f7f7;
+} */
